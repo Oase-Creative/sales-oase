@@ -20,57 +20,121 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "General",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "About",
-            "pages": [
-              "index"
+            "tab": "General",
+            "groups": [
+              {
+                "group": "About",
+                "pages": [
+                  "index"
+                ]
+              },
+              {
+                "group": "Branding",
+                "pages": [
+                  "services/brandbook",
+                  "services/brand-photoshoot",
+                  "services/logo"
+                ]
+              },
+              {
+                "group": "E-commerce",
+                "pages": [
+                  "services/branding",
+                  "services/listings",
+                  "services/packaging-design",
+                  "services/copywriting",
+                  "services/3d-modeling",
+                  "services/manuals"
+                ]
+              },
+              {
+                "group": "Photo & Video",
+                "pages": [
+                  "services/product-photography",
+                  "services/lifestyle-photography",
+                  "services/product-video"
+                ]
+              },
+              {
+                "group": "Websites",
+                "pages": [
+                  "services/website",
+                  "services/shopify",
+                  "services/seo"
+                ]
+              },
+              {
+                "group": "Resources",
+                "pages": [
+                  "pricing",
+                  "faq",
+                  "forms"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "nl",
+        "tabs": [
           {
-            "group": "E-commerce",
-            "pages": [
-              "services/branding",
-              "services/listings",
-              "services/packaging-design",
-              "services/copywriting",
-              "services/3d-modeling",
-              "services/manuals"
-            ]
-          },
-          {
-            "group": "Foto & video",
-            "pages": [
-              "services/product-photography",
-              "services/lifestyle-photography",
-              "services/product-video"
-            ]
-          },
-          {
-            "group": "Websites",
-            "pages": [
-              "services/website",
-              "services/shopify",
-              "services/seo"
-            ]
-          },
-          {
-            "group": "Branding",
-            "pages": [
-              "services/brandbook",
-              "services/brand-photoshoot",
-              "services/logo"
-            ]
-          },
-          {
-            "group": "Resources",
-            "pages": [
-              "pricing",
-              "faq",
-              "forms"
+            "tab": "Algemeen",
+            "groups": [
+              {
+                "group": "Over",
+                "pages": [
+                  "index"
+                ]
+              },
+              {
+                "group": "Branding",
+                "pages": [
+                  "services/brandbook",
+                  "services/brand-photoshoot",
+                  "services/logo"
+                ]
+              },
+              {
+                "group": "E-commerce",
+                "pages": [
+                  "services/branding",
+                  "services/listings",
+                  "services/packaging-design",
+                  "services/copywriting",
+                  "services/3d-modeling",
+                  "services/manuals"
+                ]
+              },
+              {
+                "group": "Foto & Video",
+                "pages": [
+                  "services/product-photography",
+                  "services/lifestyle-photography",
+                  "services/product-video"
+                ]
+              },
+              {
+                "group": "Websites",
+                "pages": [
+                  "services/website",
+                  "services/shopify",
+                  "services/seo"
+                ]
+              },
+              {
+                "group": "Resources",
+                "pages": [
+                  "pricing",
+                  "faq",
+                  "forms"
+                ]
+              }
             ]
           }
         ]
