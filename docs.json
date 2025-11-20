@@ -52,7 +52,8 @@
                   "services/packaging-design",
                   "services/copywriting",
                   "services/3d-modeling",
-                  "services/manuals"
+                  "services/manuals",
+                  "services/digital-manuals"
                 ]
               },
               {
@@ -135,7 +136,8 @@
                   "services/packaging-design",
                   "services/copywriting",
                   "services/3d-modeling",
-                  "services/manuals"
+                  "services/manuals",
+                  "services/digital-manuals"
                 ]
               },
               {
