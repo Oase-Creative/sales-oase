@@ -73,6 +73,13 @@
                   "services/shopify",
                   "services/seo"
                 ]
+              },
+              {
+                "group": "AI Services",
+                "icon": "sparkles",
+                "pages": [
+                  "services/ai-services"
+                ]
               }
             ]
           },
@@ -156,6 +163,13 @@
                   "services/website",
                   "services/shopify",
                   "services/seo"
+                ]
+              },
+              {
+                "group": "AI Services",
+                "icon": "sparkles",
+                "pages": [
+                  "services/ai-services"
                 ]
               }
             ]
