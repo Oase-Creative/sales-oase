@@ -6,17 +6,31 @@
     "light": "/logo/oase-logo-r-registered-black.png",
     "dark": "/logo/oase-logo-r-registered-white.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/Favicon-Oase-favicon.png",
   "colors": {
     "primary": "#000000",
     "light": "#333333",
     "dark": "#000000"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Book a Consultation",
+      "href": "https://oasecreative.nl/#boekeengesprek"
+    }
   },
   "navigation": {
     "tabs": [
       {
         "tab": "General",
         "groups": [
+          {
+            "group": "Company",
+            "pages": [
+              "index",
+              "portfolio"
+            ]
+          },
           {
             "group": "Services",
             "pages": [
