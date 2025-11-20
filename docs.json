@@ -19,43 +19,50 @@
       "href": "https://oasecreative.nl/#boekeengesprek"
     }
   },
-  "navigation": [
-    {
-      "group": "Company",
-      "pages": [
-        "index",
-        "portfolio"
-      ]
-    },
-    {
-      "group": "Services",
-      "pages": [
-        "services/listings",
-        "services/packaging-design",
-        "services/brandbook",
-        "services/product-photography",
-        "services/product-video",
-        "services/brand-photoshoot",
-        "services/shopify",
-        "services/website",
-        "services/logo",
-        "services/manuals"
-      ]
-    },
-    {
-      "group": "Pricing",
-      "pages": [
-        "pricing"
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        "faq",
-        "forms"
-      ]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "General",
+        "groups": [
+          {
+            "group": "Company",
+            "pages": [
+              "index",
+              "portfolio"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "services/listings",
+              "services/packaging-design",
+              "services/brandbook",
+              "services/product-photography",
+              "services/product-video",
+              "services/brand-photoshoot",
+              "services/shopify",
+              "services/website",
+              "services/logo",
+              "services/manuals"
+            ]
+          },
+          {
+            "group": "Pricing",
+            "pages": [
+              "pricing"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "faq",
+              "forms"
+            ]
+          }
+            ]
+          }
+   ]
+  },
   "footer": {
     "socials": {
       "website": "https://oasecreative.nl",
