@@ -29,12 +29,14 @@
             "groups": [
               {
                 "group": "About",
+                "icon": "building",
                 "pages": [
                   "index"
                 ]
               },
               {
                 "group": "Branding",
+                "icon": "palette",
                 "pages": [
                   "services/brandbook",
                   "services/brand-photoshoot",
@@ -43,6 +45,7 @@
               },
               {
                 "group": "E-commerce",
+                "icon": "shopping-cart",
                 "pages": [
                   "services/branding",
                   "services/listings",
@@ -54,6 +57,7 @@
               },
               {
                 "group": "Photo & Video",
+                "icon": "camera",
                 "pages": [
                   "services/product-photography",
                   "services/lifestyle-photography",
@@ -62,6 +66,7 @@
               },
               {
                 "group": "Websites",
+                "icon": "globe",
                 "pages": [
                   "services/website",
                   "services/shopify",
@@ -107,12 +112,14 @@
             "groups": [
               {
                 "group": "Over",
+                "icon": "building",
                 "pages": [
                   "index"
                 ]
               },
               {
                 "group": "Branding",
+                "icon": "palette",
                 "pages": [
                   "services/brandbook",
                   "services/brand-photoshoot",
@@ -121,6 +128,7 @@
               },
               {
                 "group": "E-commerce",
+                "icon": "shopping-cart",
                 "pages": [
                   "services/branding",
                   "services/listings",
@@ -132,6 +140,7 @@
               },
               {
                 "group": "Foto & Video",
+                "icon": "camera",
                 "pages": [
                   "services/product-photography",
                   "services/lifestyle-photography",
@@ -140,6 +149,7 @@
               },
               {
                 "group": "Websites",
+                "icon": "globe",
                 "pages": [
                   "services/website",
                   "services/shopify",
