@@ -37,7 +37,8 @@
               "services/listings",
               "services/packaging-design",
               "services/copywriting",
-              "services/3d-modeling"
+              "services/3d-modeling",
+              "services/manuals"
             ]
           },
           {
@@ -57,29 +58,17 @@
             ]
           },
           {
-            "group": "Additional Services",
+            "group": "Branding",
             "pages": [
               "services/brandbook",
               "services/brand-photoshoot",
-              "services/logo",
-              "services/manuals"
-            ]
-          },
-          {
-            "group": "Projecten",
-            "pages": [
-              "portfolio"
-            ]
-          },
-          {
-            "group": "Pricing",
-            "pages": [
-              "pricing"
+              "services/logo"
             ]
           },
           {
             "group": "Resources",
             "pages": [
+              "pricing",
               "faq",
               "forms"
             ]
