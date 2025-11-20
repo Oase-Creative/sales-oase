@@ -67,12 +67,31 @@
                   "services/shopify",
                   "services/seo"
                 ]
+              }
+            ]
+          },
+          {
+            "tab": "Resources",
+            "groups": [
+              {
+                "group": "Overview",
+                "icon": "book",
+                "pages": [
+                  "resources"
+                ]
               },
               {
-                "group": "Resources",
+                "group": "Information",
+                "icon": "info-circle",
                 "pages": [
                   "pricing",
-                  "faq",
+                  "faq"
+                ]
+              },
+              {
+                "group": "Get Started",
+                "icon": "rocket",
+                "pages": [
                   "forms"
                 ]
               }
@@ -126,12 +145,31 @@
                   "services/shopify",
                   "services/seo"
                 ]
+              }
+            ]
+          },
+          {
+            "tab": "Resources",
+            "groups": [
+              {
+                "group": "Overzicht",
+                "icon": "book",
+                "pages": [
+                  "resources"
+                ]
               },
               {
-                "group": "Resources",
+                "group": "Informatie",
+                "icon": "info-circle",
                 "pages": [
                   "pricing",
-                  "faq",
+                  "faq"
+                ]
+              },
+              {
+                "group": "Aan de slag",
+                "icon": "rocket",
+                "pages": [
                   "forms"
                 ]
               }
