@@ -25,25 +25,50 @@
         "tab": "General",
         "groups": [
           {
-            "group": "Company",
+            "group": "About",
             "pages": [
-              "index",
-              "portfolio"
+              "index"
             ]
           },
           {
-            "group": "Services",
+            "group": "E-commerce",
             "pages": [
+              "services/branding",
               "services/listings",
               "services/packaging-design",
-              "services/brandbook",
+              "services/copywriting",
+              "services/3d-modeling"
+            ]
+          },
+          {
+            "group": "Foto & video",
+            "pages": [
               "services/product-photography",
-              "services/product-video",
-              "services/brand-photoshoot",
-              "services/shopify",
+              "services/lifestyle-photography",
+              "services/product-video"
+            ]
+          },
+          {
+            "group": "Websites",
+            "pages": [
               "services/website",
+              "services/shopify",
+              "services/seo"
+            ]
+          },
+          {
+            "group": "Additional Services",
+            "pages": [
+              "services/brandbook",
+              "services/brand-photoshoot",
               "services/logo",
               "services/manuals"
+            ]
+          },
+          {
+            "group": "Projecten",
+            "pages": [
+              "portfolio"
             ]
           },
           {
@@ -59,9 +84,9 @@
               "forms"
             ]
           }
-            ]
-          }
-   ]
+        ]
+      }
+    ]
   },
   "footer": {
     "socials": {
