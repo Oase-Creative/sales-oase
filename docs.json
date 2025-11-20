@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Oase Creative",
+  "defaultLanguage": "nl",
   "logo": {
     "light": "/logo/oase-logo-r-registered-black.png",
     "dark": "/logo/oase-logo-r-registered-white.png"
@@ -22,97 +23,6 @@
   "navigation": {
     "languages": [
       {
-        "language": "en",
-        "tabs": [
-          {
-            "tab": "General",
-            "groups": [
-              {
-                "group": "About",
-                "icon": "building",
-                "pages": [
-                  "index"
-                ]
-              },
-              {
-                "group": "Branding",
-                "icon": "palette",
-                "pages": [
-                  "services/brandbook",
-                  "services/brand-photoshoot",
-                  "services/logo"
-                ]
-              },
-              {
-                "group": "E-commerce",
-                "icon": "shopping-cart",
-                "pages": [
-                  "services/branding",
-                  "services/listings",
-                  "services/packaging-design",
-                  "services/copywriting",
-                  "services/3d-modeling",
-                  "services/manuals",
-                  "services/digital-manuals"
-                ]
-              },
-              {
-                "group": "Photo & Video",
-                "icon": "camera",
-                "pages": [
-                  "services/product-photography",
-                  "services/lifestyle-photography",
-                  "services/product-video"
-                ]
-              },
-              {
-                "group": "Websites",
-                "icon": "globe",
-                "pages": [
-                  "services/website",
-                  "services/shopify",
-                  "services/seo"
-                ]
-              },
-              {
-                "group": "AI Services",
-                "icon": "sparkles",
-                "pages": [
-                  "services/ai-services"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "Resources",
-            "groups": [
-              {
-                "group": "Overview",
-                "icon": "book",
-                "pages": [
-                  "resources"
-                ]
-              },
-              {
-                "group": "Information",
-                "icon": "info-circle",
-                "pages": [
-                  "pricing",
-                  "faq"
-                ]
-              },
-              {
-                "group": "Get Started",
-                "icon": "rocket",
-                "pages": [
-                  "forms"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "language": "nl",
         "tabs": [
           {
@@ -122,54 +32,54 @@
                 "group": "Over",
                 "icon": "building",
                 "pages": [
-                  "index"
+                  "nl/index"
                 ]
               },
               {
                 "group": "Branding",
                 "icon": "palette",
                 "pages": [
-                  "services/brandbook",
-                  "services/brand-photoshoot",
-                  "services/logo"
+                  "nl/services/brandbook",
+                  "nl/services/brand-photoshoot",
+                  "nl/services/logo"
                 ]
               },
               {
                 "group": "E-commerce",
                 "icon": "shopping-cart",
                 "pages": [
-                  "services/branding",
-                  "services/listings",
-                  "services/packaging-design",
-                  "services/copywriting",
-                  "services/3d-modeling",
-                  "services/manuals",
-                  "services/digital-manuals"
+                  "nl/services/branding",
+                  "nl/services/listings",
+                  "nl/services/packaging-design",
+                  "nl/services/copywriting",
+                  "nl/services/3d-modeling",
+                  "nl/services/manuals",
+                  "nl/services/digital-manuals"
                 ]
               },
               {
                 "group": "Foto & Video",
                 "icon": "camera",
                 "pages": [
-                  "services/product-photography",
-                  "services/lifestyle-photography",
-                  "services/product-video"
+                  "nl/services/product-photography",
+                  "nl/services/lifestyle-photography",
+                  "nl/services/product-video"
                 ]
               },
               {
                 "group": "Websites",
                 "icon": "globe",
                 "pages": [
-                  "services/website",
-                  "services/shopify",
-                  "services/seo"
+                  "nl/services/website",
+                  "nl/services/shopify",
+                  "nl/services/seo"
                 ]
               },
               {
                 "group": "AI Services",
                 "icon": "sparkles",
                 "pages": [
-                  "services/ai-services"
+                  "nl/services/ai-services"
                 ]
               }
             ]
@@ -181,22 +91,113 @@
                 "group": "Overzicht",
                 "icon": "book",
                 "pages": [
-                  "resources"
+                  "nl/resources"
                 ]
               },
               {
                 "group": "Informatie",
                 "icon": "info-circle",
                 "pages": [
-                  "pricing",
-                  "faq"
+                  "nl/pricing",
+                  "nl/faq"
                 ]
               },
               {
                 "group": "Aan de slag",
                 "icon": "rocket",
                 "pages": [
-                  "forms"
+                  "nl/forms"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "General",
+            "groups": [
+              {
+                "group": "About",
+                "icon": "building",
+                "pages": [
+                  "en/index"
+                ]
+              },
+              {
+                "group": "Branding",
+                "icon": "palette",
+                "pages": [
+                  "en/services/brandbook",
+                  "en/services/brand-photoshoot",
+                  "en/services/logo"
+                ]
+              },
+              {
+                "group": "E-commerce",
+                "icon": "shopping-cart",
+                "pages": [
+                  "en/services/branding",
+                  "en/services/listings",
+                  "en/services/packaging-design",
+                  "en/services/copywriting",
+                  "en/services/3d-modeling",
+                  "en/services/manuals",
+                  "en/services/digital-manuals"
+                ]
+              },
+              {
+                "group": "Photo & Video",
+                "icon": "camera",
+                "pages": [
+                  "en/services/product-photography",
+                  "en/services/lifestyle-photography",
+                  "en/services/product-video"
+                ]
+              },
+              {
+                "group": "Websites",
+                "icon": "globe",
+                "pages": [
+                  "en/services/website",
+                  "en/services/shopify",
+                  "en/services/seo"
+                ]
+              },
+              {
+                "group": "AI Services",
+                "icon": "sparkles",
+                "pages": [
+                  "en/services/ai-services"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Resources",
+            "groups": [
+              {
+                "group": "Overview",
+                "icon": "book",
+                "pages": [
+                  "en/resources"
+                ]
+              },
+              {
+                "group": "Information",
+                "icon": "info-circle",
+                "pages": [
+                  "en/pricing",
+                  "en/faq"
+                ]
+              },
+              {
+                "group": "Get Started",
+                "icon": "rocket",
+                "pages": [
+                  "en/forms"
                 ]
               }
             ]
