@@ -20,3 +20,85 @@ With over 174 reviews on Trustpilot and a 4.9/5 rating, we're proud of the quali
 ## Get Started
 
 Ready to start your project? Explore our [Services](/services/listings) or check out our [Pricing](/pricing) information. When you're ready, fill out one of our [Project Forms](/forms) to get started.
+
+---
+
+## Development & Setup
+
+This documentation site is built with [Mintlify](https://mintlify.com/), a modern documentation platform.
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Local Development
+
+1. **Install Mintlify CLI:**
+   ```bash
+   npm i -g mintlify
+   ```
+
+2. **Start the development server:**
+   ```bash
+   mint dev
+   ```
+
+3. **Preview your changes:**
+   - Open `http://localhost:3000` in your browser
+   - Changes will hot-reload automatically
+
+### Validation & Quality Checks
+
+Before deploying, run these commands:
+
+```bash
+# Validate configuration
+mint validate
+
+# Check for broken links
+mint broken-links
+
+# Check accessibility
+mint a11y
+```
+
+### Project Structure
+
+```
+sales-oase/
+├── docs.json              # Mintlify configuration
+├── en/                    # English content
+│   ├── index.mdx
+│   ├── services/
+│   ├── pricing.mdx
+│   ├── faq.mdx
+│   └── ...
+├── nl/                    # Dutch content
+│   ├── index.mdx
+│   ├── services/
+│   ├── pricing.mdx
+│   ├── faq.mdx
+│   └── ...
+├── images/                # Image assets
+├── logo/                  # Logo files
+└── assets/                # PDFs and other files
+```
+
+### Deployment
+
+This site is automatically deployed via Mintlify when changes are pushed to the main branch. No additional build steps are required.
+
+### Troubleshooting
+
+For common issues and syntax errors, see [MINTLIFY_TROUBLESHOOTING.md](./MINTLIFY_TROUBLESHOOTING.md).
+
+### Contributing
+
+When adding or editing content:
+
+1. Ensure frontmatter is properly formatted with `title` and `description`
+2. Use consistent formatting across all pages
+3. Keep English and Dutch versions synchronized
+4. Test locally with `mint dev` before committing
+5. Run `mint broken-links` to check for broken references

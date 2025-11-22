@@ -32,7 +32,8 @@
                 "group": "Over",
                 "icon": "building",
                 "pages": [
-                  "nl/index"
+                  "nl/index",
+                  "nl/portfolio"
                 ]
               },
               {
@@ -123,7 +124,8 @@
                 "group": "About",
                 "icon": "building",
                 "pages": [
-                  "en/index"
+                  "en/index",
+                  "en/portfolio"
                 ]
               },
               {
